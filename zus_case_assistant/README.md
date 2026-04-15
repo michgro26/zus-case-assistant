@@ -1,6 +1,6 @@
 # Asystent analizy spraw i korespondencji ZUS
 
-Projekt portfolio pokazujący, jak zbudować narzędzie wspierające pracę na sprawach klientów w środowisku podobnym do ZUS. To nie jest już prosty chatbot-demo. Aplikacja realizuje konkretny workflow:
+Projekt portfolio pokazujący, jak zbudować narzędzie wspierające pracę na sprawach klientów w środowisku podobnym do ZUS. Aplikacja realizuje konkretny workflow:
 - analizuje opis sprawy,
 - rozpoznaje typ sprawy,
 - porównuje go z zanonimizowanymi scenariuszami,
@@ -107,7 +107,7 @@ python -m streamlit run app.py
 ```
 
 ## Konfiguracja OpenAI
-Aplikacja działa bez klucza API. Jeżeli chcesz, aby system redagował bardziej naturalne odpowiedzi, utwórz plik `.env`:
+Aplikacja działa bez klucza API. Jeżeli system miałby redagować bardziej naturalnie , utwórz plik `.env`:
 
 ```env
 OPENAI_API_KEY=twoj_klucz
