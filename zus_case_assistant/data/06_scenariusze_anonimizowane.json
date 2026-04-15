@@ -1,0 +1,38 @@
+[
+  {
+    "id": "S1",
+    "title": "Klient chce zarezerwować e-wizytę w sprawie zasiłku",
+    "case_text": "Klientka pyta, jak umówić konsultację online w sprawie zasiłku chorobowego. Nie wie, jakie dane musi podać i czy może wybrać temat dotyczący zasiłków.",
+    "service_type": "e_wizyta",
+    "attached_documents": [],
+    "expected_missing": [],
+    "recommended_channel": "e-wizyta"
+  },
+  {
+    "id": "S2",
+    "title": "Problem z logowaniem do eZUS",
+    "case_text": "Klient nie pamięta loginu do eZUS, a przy próbach logowania hasłem konto zostało czasowo zablokowane. Ma aktywny profil zaufany.",
+    "service_type": "e_zus_logowanie",
+    "attached_documents": [],
+    "expected_missing": [],
+    "recommended_channel": "eZUS"
+  },
+  {
+    "id": "S3",
+    "title": "Działalność gospodarcza i wniosek o zasiłek chorobowy",
+    "case_text": "Osoba prowadząca działalność gospodarczą przysłała informację o e-ZLA i chce wiedzieć, co jeszcze musi złożyć do ZUS, aby uzyskać zasiłek chorobowy.",
+    "service_type": "zasilek_chorobowy_dzialalnosc",
+    "attached_documents": ["e-ZLA"],
+    "expected_missing": ["Z-3b lub ZAS-53"],
+    "recommended_channel": "świadczenia / zasiłki"
+  },
+  {
+    "id": "S4",
+    "title": "Klient przesyła dane osobowe mailem i chce pełnej informacji o sprawie",
+    "case_text": "Klient chce przesłać szczegóły swojej sprawy zwykłym mailem i oczekuje pełnej informacji o stanie sprawy bez dodatkowego potwierdzania tożsamości.",
+    "service_type": "kontakt_bezpieczenstwo",
+    "attached_documents": [],
+    "expected_missing": ["bezpieczny kanał uwierzytelnienia"],
+    "recommended_channel": "CKK lub formularz kontaktowy"
+  }
+]

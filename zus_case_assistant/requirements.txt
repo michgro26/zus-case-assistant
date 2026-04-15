@@ -1,0 +1,7 @@
+streamlit==1.44.1
+scikit-learn==1.6.1
+numpy==2.2.4
+pandas==2.2.3
+python-dotenv==1.1.0
+openai==1.75.0
+pytest==8.3.5

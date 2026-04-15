@@ -1,0 +1,30 @@
+[
+  {
+    "case_text": "Prowadzę działalność gospodarczą i mam już e-ZLA. Jakie dokumenty muszę jeszcze złożyć do zasiłku chorobowego?",
+    "attached_documents": ["e-ZLA"],
+    "expected_service_type": "zasilek_chorobowy_dzialalnosc",
+    "expected_missing": ["Z-3b lub ZAS-53"],
+    "expected_source_contains": "zasilek_chorobowy"
+  },
+  {
+    "case_text": "Nie pamiętam loginu do eZUS, ale mam profil zaufany. Konto po błędnych próbach jest zablokowane.",
+    "attached_documents": ["profil zaufany"],
+    "expected_service_type": "e_zus_logowanie",
+    "expected_missing": [],
+    "expected_source_contains": "ezus_logowanie"
+  },
+  {
+    "case_text": "Chcę umówić konsultację online w sprawie zasiłku. Jakie dane mam podać przy rezerwacji e-wizyty?",
+    "attached_documents": [],
+    "expected_service_type": "e_wizyta",
+    "expected_missing": [],
+    "expected_source_contains": "e_wizyta_rezerwacja"
+  },
+  {
+    "case_text": "Klient chce wysłać dane osobowe zwykłym mailem i oczekuje pełnej informacji o swojej sprawie.",
+    "attached_documents": [],
+    "expected_service_type": "kontakt_bezpieczenstwo",
+    "expected_missing": ["bezpieczny kanał uwierzytelnienia"],
+    "expected_source_contains": "ckk"
+  }
+]
