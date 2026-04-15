@@ -131,11 +131,6 @@ Skrypt sprawdza m.in.:
 - czy wskazuje brakujące dokumenty tam, gdzie powinien,
 - czy retrieval zwraca właściwe źródła.
 
-## Jak mówić o tym projekcie na rozmowie
-Możesz opisać go tak:
-
-> Zbudowałem narzędzie AI wspierające analizę spraw i korespondencji w środowisku podobnym do ZUS. System korzysta z publicznych materiałów ZUS i zanonimizowanych scenariuszy, rozpoznaje temat sprawy, wskazuje brakujące elementy, rekomenduje kanał obsługi oraz przygotowuje roboczą odpowiedź z podaniem źródeł.
-
 ## Ograniczenia
 - baza wiedzy obejmuje tylko wybrany zakres spraw,
 - moduł brakujących dokumentów opiera się na prostych regułach,
